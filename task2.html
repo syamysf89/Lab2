@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fullname">Full Name:</label><br>
+        <input placeholder="Enter your fullname" type="text" id="fullname" name="fullname" required><br>
+        
+        <label for="email">Email Address:</label><br>
+        <input placeholder="Enter your email" id="email" name="email" required><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="120" value="18" required><br>
+        <br>
+        <label for="gender">Gender:</label><br>
+        <br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        </select><br>
+        
+        <label for="country">Country of Residence:</label><br>
+        <input type="text" id="country" name="country" value="Malaysia" required><br>
+        <br>
+        <label for="areas">Areas of Interest:</label><br>
+        <br>
+        <input type="checkbox" id="software-development" name="areas" value="software-development" required>
+        <label for="software-development">Software Development</label><br>
+        <input type="checkbox" id="data-science" name="areas" value="data-science" required>
+        <label for="data-science">Data Science</label><br>
+        <input type="checkbox" id="cybersecurity" name="areas" value="cybersecurity" required>
+        <label for="cybersecurity">Cybersecurity</label><br>
+        <input type="checkbox" id="artificial-intelligence" name="areas" value="artificial-intelligence" required>
+        <label for="artificial-intelligence">Artificial Intelligence</label><br>
+        <br>
+        <label for="experience">Experience Level:</label><br>
+        <br>
+        <input type="radio" id="beginner" name="experience" value="beginner" required>
+        <label for="beginner">Beginner</label><br>
+        <input type="radio" id="intermediate" name="experience" value="intermediate" required>
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="experience" value="advanced" required>
+        <label for="advanced">Advanced</label><br>
+        <br>
+        <label for="comments">Comments or Questions:</label><br>
+        <textarea placeholder="Any comments or questions?" name="comments"></textarea><br>
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Register">
+      </form>
+</body>
+</html>
